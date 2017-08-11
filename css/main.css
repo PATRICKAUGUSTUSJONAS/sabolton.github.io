@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Tide Sans';
+	src:
+		url('../fonts/TideSans-300LilKahuna.woff') format('woff'),
+		url('../fonts/TideSans-300LilKahuna.otf') format('opentype'),
+		url('../fonts/TideSans-300LilKahuna.svg') format('svg');
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Tide Sans';
+	src:
+		url('../fonts/TideSans-600Bunny.woff') format('woff'),
+		url('../fonts/TideSans-600Bunny.otf') format('opentype'),
+		url('../fonts/TideSans-600Bunny.svg') format('svg');
+    font-weight: bold;
+}
+@font-face {
+	font-family: 'Tide Sans';
+	src:
+		url('../fonts/TideSans-300LilKahunaItalic.woff') format('woff'),
+		url('../fonts/TideSans-300LilKahunaItalic.otf') format('opentype'),
+		url('../fonts/TideSans-300LilKahunaItalic.svg') format('svg');
+    font-style: italic;
+}
+@font-face {
+	font-family: 'Tide Sans';
+	src:
+		url('../fonts/TideSans-600BunnyItalic.woff') format('woff'),
+		url('../fonts/TideSans-600BunnyItalic.otf') format('opentype'),
+		url('../fonts/TideSans-600BunnyItalic.svg') format('svg');
+    font-style: italic;
+    font-weight: bold;
+}
+
+body {
+	font-family: /*'Tide Sans',*/ 'Open Sans', sans-serif;
+	background: #f0f0f0;
+	border-top: 5px solid #cacaca;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.17em;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container {
+	padding: 1em;
+}
+
+.header-title {
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+.header-title > * {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.circle {
+	width: 6em;
+	height: 6em;
+	border-radius: 3em;
+	background: #000000;
+	color: #f0f0f0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle-text {
+	font-size: 3em;
+}
+
+@media print {
+	.noprint {
+		display: none;
+	}
+}
