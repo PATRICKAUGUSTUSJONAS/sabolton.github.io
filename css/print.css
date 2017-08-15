@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*
 @font-face {
 	font-family: 'Tide Sans';
 	src:
@@ -33,7 +33,7 @@
     font-style: italic;
     font-weight: bold;
 }
-
+*/
 body {
 	font-family: /*'Tide Sans',*/ 'Open Sans', sans-serif;
 	background: #f0f0f0;
